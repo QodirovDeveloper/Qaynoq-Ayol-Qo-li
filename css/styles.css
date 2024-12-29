@@ -1,0 +1,123 @@
+body
+a
+{
+  list-style-type: disc;
+}
+
+.header-1
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.headers
+{
+  transition: 0.6s;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ec6522;
+}
+
+.logo
+{
+  transition: 0.5s;
+}
+
+
+.logo:hover
+{
+  opacity: 0.8;
+}
+
+.logo:active
+{
+  opacity: 0.6;
+}
+
+#header
+{
+  box-shadow: 0 0 20px 0 rgba(35, 31, 32, 0.1)
+}
+.space-1
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-2
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-3
+{
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.svg-text
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.svg-text-green
+{
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #7aad42;
+}
+
+.svg-text-red
+{
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #db1a55
+}
+
+.svg-text-blue
+{
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #00a0c9
+}
+
+.svg-text-orange
+{
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ec6522
+}
+
+.custom-input::placeholder
+{
+  color: rgba(0, 0, 0, 0.606); /* Цвет для placeholder */
+  font-style:  italic; /* Дополнительно меняем стиль */
+}
+
+#input-name
+{
+  width: 450px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+#input-submit
+{
+  width: 450px;
+  height: 40px;
+  background-color: #db1a55;
+  border-radius: 10px;
+}

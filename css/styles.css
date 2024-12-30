@@ -1,13 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
 body
 a
 {
   list-style-type: disc;
 }
 
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.the-best-work{
+  text-align: center;
+}
+
+
 .header-1
 {
   display: flex;
-  justify-content: space-between;
+  column-gap: 50px;
   align-items: center;
 
 }
@@ -43,21 +58,21 @@ a
 .space-1
 {
   display: flex;
-  justify-content: space-between;
+  column-gap: 50px;
   align-items: center;
 }
 
 .space-2
 {
   display: flex;
-  justify-content: space-between;
+  column-gap: 50px;
   align-items: center;
 }
 
 .space-3
 {
   display: flex;
-  justify-content: baseline;
+column-gap: 50px;
   align-items: center;
 }
 
